@@ -1,0 +1,33 @@
+.get-section {
+    padding: 76px 0;
+    background-color: #F67E7E;
+    background-image: url("../images/get-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 200px 145px;
+    background-position: left bottom;
+}
+
+.get {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.get h2 {
+    color: #012F34;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.get a {
+    color: #012F34;
+    padding: 9px 32px;
+    border-radius: 30px;
+    border: 2px solid #000;
+}
+
+.get a:hover {
+    color: #FFF;
+    background: #012F34;
+}
