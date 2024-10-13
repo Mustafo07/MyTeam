@@ -113,12 +113,12 @@
     }
 
     .item {
-        width: 327px;
+        max-width: 327px;
         gap: 16px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 0 auto;
+        // margin: 0 auto;
     }
 
 }

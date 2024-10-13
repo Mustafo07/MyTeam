@@ -1,5 +1,5 @@
 .get-section {
-    padding: 76px 0;
+    padding: 76px 243px;
     background-color: #F67E7E;
     background-image: url("../images/get-bg.svg");
     background-repeat: no-repeat;
@@ -30,4 +30,34 @@
 .get a:hover {
     color: #FFF;
     background: #012F34;
+}
+
+@media (max-width: 1220px) {
+    .get h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .get-section {
+        padding: 76px 77px;
+        background-size: 140px 100px;
+    }
+}
+
+@media (max-width: 710px) {
+    .get-section {
+        padding: 83px 0;
+    }
+
+    .get {
+        flex-direction: column;
+    }
+
+    .get h2 {
+        width: 327px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
 }

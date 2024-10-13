@@ -34,7 +34,8 @@ header {
     color: #F67E7E;
 }
 
-.header-contact-link {
+.header-contact-link,
+.navbar-btn {
     width: 153px;
     color: #fff;
     border: 2px solid #fff;
@@ -54,6 +55,37 @@ header {
 .header-menu-img {
     display: none;
 }
+
+// .navbar-wrapper {
+//     background-color: #00000079;
+//     position: fixed;
+//     inset: 0px;
+//     z-index: 9999;
+//     backdrop-filter: blur(5px);
+// }
+
+// .navbar {
+//     padding: 56px 25px 0 48px;
+//     position: absolute;
+//     width: 65%;
+//     height: 100vh;
+//     right: 0;
+//     background-color: #2C6269;
+// }
+// .navbar-close-btn{
+//     width: 100%;
+//     background-color: transparent;
+//     margin-bottom: 39px;
+//     border: none;
+// }
+// .navbar-item:nth-child(1){
+//     margin-bottom: 34px;
+// }
+// .navbar-btn{
+//     width: 159px;
+//     display: block;
+//     margin: 0 auto;
+// }
 
 @media (max-width: 1024px) {
     header {
